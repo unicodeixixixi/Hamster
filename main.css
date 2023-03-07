@@ -4,4 +4,17 @@ body {
 .center {
     text-align: center;
   }
+
+.container {
+    position: relative;
+  }
+  
+  .green-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% + 10px);
+    background-color: rgb(135, 199, 33);
+  }
   
